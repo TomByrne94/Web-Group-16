@@ -1,0 +1,182 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>Denial of Service Attacks</title>
+		<link rel="stylesheet" href="main.css" type="text/css" media="screen, projection">
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div id="header">
+
+				<h1>Denial of Service attacks</h1>
+
+				<!-- begin navigation -->
+				<div id="nav">
+
+					<ul class="clearfix">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="DDoS.html">Attack Methods</a>
+						</li>
+						<li>
+							<a href="#">Handling</a>
+						</li>
+						<li>
+							<a href="history.html">History</a>
+						</li>
+						<li>
+							<a href="legality.html">Legality</a>
+						</li>
+						<li>
+							<a href="quiz.html">Quiz</a>
+						</li>
+					</ul>
+
+				</div><!-- end navigation -->
+
+			</div><!-- end header -->
+
+
+
+			<!-- begin content which houses our two columns and footer -->
+			<div id="content" class="clearfix">
+
+				<!-- begin main column -->
+				<div id="main">
+					<div id="main-inner">
+					
+						<A NAME="DAM">
+						<h2>DDoS Attack Methods:</h2>
+						<p>
+							There are many different ways in which DDoS attacks can be performed. Generally exploits 
+							and weaknesses in software or hardware are use to perform the attack. They all vary in 
+							effectiveness and are used by different people for different reasons.
+						</p>
+						
+						<A NAME="UDP">
+						<h2>UDP Attack -</h2>
+						<p>
+							This type of attack abuses the “user datagram network protocol” by sending mass
+							amounts of packets to random ports to a remote host. The host then tries to find the 
+							non-existent application that is listening at the port, when the application isn’t found the host
+							then replies with a destination unreachable packet. Sending these packets to all of the 
+							requests will use up the hosts resources and will slow and and eventually make the host inaccessible.
+						</p>
+
+						<A NAME="ICMP">
+						<h2>ICMP/Ping Flood -</h2>
+						<p>
+							This type of attack sends huge volumes of internet control message protocol
+							echo request pings to the target host without waiting for a response. This method uses both 
+							the incoming and outgoing bandwidth of the host as they will try to respond to the 
+							relentless pings.
+						</p>
+						
+						<A NAME="SYN">
+						<h2>SYN Attack -</h2>
+						<p>
+							This type of attack exploits weaknesses in the transmission control protocol to
+							create a three way-handshake. In a normal handshake scenario a SYN request is made to 
+							start a TCP connection with a host. The host then responds with a SYN-ACK and is then 
+							accepted with an ACK reply from the requester. In the case of an SYN flood the requester 
+							either never sends back an ACK reply or sends it back with fake details depending on the 
+							type of security that the host has. The host is left waiting for a response which uses up 
+							resources preventing new requests from legitimate sources from being made.
+						</p>
+						
+						<A NAME="POD">
+						<h2>Ping of Death -</h2>
+						<p>
+							Usually an IP packet has a max length of about 65,000 bytes. The data link
+							layer of the OSI model limits the max packet size to 1,500 bytes. If a packet is larger than 
+							this max amount it is split up into fragments and sent, the host can then use the fragments 
+							to recreate the original IP packet. The POD attack is carried out by spamming the target host 
+							with malicious broken packets. When reassemabled these packets end up being much larger 
+							than 65,000 bytes and cause memory overflow issues on the target host preventing 
+							legitimate packets from being received.
+						</p>
+						
+						<A NAME="SLOW">
+						<h2>Slowloris -</h2>
+						<p>
+							This method of attack uses one machine to target and crash a web server. It
+							does this without effecting the other services on the target server too badly. The attacker 
+							attempts to create as many connections to the target as they can and then hold them for as 
+							long as possible. This is performed by by sending partial requests and leaving the server 
+							waiting for a complete request on that connection. This is done until the connection pool 
+							overflows and no more connections can be by from legitimate requests.
+						</p>
+
+					</div>
+				</div>
+
+				<div id="side">
+					<div id="side-inner">
+
+						<h3>Quick Links -</h3>
+
+						<ul>
+							<li>
+								<a href="#DAM">DDoS Attack Methods</a>
+							</li>
+							<li>
+								<a href="#UDP">UDP Attack</a>
+							</li>
+							<li>
+								<a href="#ICMP">ICMP/Ping Flood</a>
+							</li>
+							<li>
+								<a href="#SYN">SYN Attack</a>
+							</li>
+							<li>
+								<a href="#POD">Ping Of Death</a>
+							</li>
+							<li>
+								<a href="#SLOW">Slowloris</a>
+							</li>
+						</ul>
+
+				
+						<h3>Books -</h3>
+						<a href="http://www.amazon.co.uk/Denial-Service-Computer-Networks-Mechanisms/dp/3845413697/ref=sr_1_5?ie=UTF8&amp;qid=1394621107&amp;sr=8-5&amp;keywords=denial+of+service+attacks"><img class="img-right" src="book1.jpg"></a>
+						
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<h3>Last Header -</h3>
+						<p>
+							Insert something generic here... 
+								<br />
+							(Valid HTML and CSS logo?)
+						</p>
+					</div>
+				</div>
+
+
+				<div id="footer">
+
+					<p>
+						Footer: Team 16
+					</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	
+</body></html>
