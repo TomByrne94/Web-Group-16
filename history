@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>DDoS</title>
+
+		<link rel="stylesheet" href="main.css" type="text/css" media="screen, projection"></link>
+
+	</head>
+
+
+
+	<body>
+	<div id="container">
+
+		<div id="header">
+
+		<h1>Denial of Service attacks</h1>
+				<!-- begin navigation -->
+				<div id="nav">
+
+					<ul class="clearfix">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="DDoS.html">Attack Methods</a>
+						</li>
+						<li>
+							<a href="#">Handling</a>
+						</li>
+						<li>
+							<a href="history.html">History</a>
+						</li>
+						<li>
+							<a href="legality.html">Legality</a>
+						</li>
+						<li>
+							<a href="quiz.html">Quiz</a>
+						</li>
+					</ul>
+				</div><!-- end navigation -->
+			</div><!-- end header -->
+			
+			
+			
+			
+			<div id="content" class="clearfix">
+				<!-- begin main column -->
+				<div id="main">
+					<div id="main-inner">
+
+		<h1>DDoS Reasons and History</h1>
+		<br/><br/>
+
+
+			<h2 id = "reasons">DDoS Reasons</h2>
+
+				<p>There are many reasons for DDoS attacks:</p>
+
+					<ul>
+
+						<li style = "list-style: disc;">Blackmail/Extortion – Taking control or attacking a website to force the owner to pay to get website back or stop the attacks so the website comes back online.</li><br/>
+
+
+
+						<li style = "list-style: disc;">Conflicts/Politics/Hate Crime/Revenge – Disagreeing with someone on their beliefs or what they have done so attacking the website that spreads the views, or attacking the website because of differences with the owner.</li><br/>
+
+
+
+						<li style = "list-style: disc;">Competitive Advantage – DDoS attacks against competing businesses in order to gain an advantage, forcing customers to use your website as the competitor's is down.</li><br/>
+
+
+
+						<li style = "list-style: disc;">Protest/Hacktivism – for example, Anonymous protesting against companies cutting ties with WikiLeaks</li><br/>
+
+					</ul>
+				<br/><br/>
+				
+				
+			<h2 id = "largest">Largest DDoS attacks</h2>
+				<img id="Spamhauspic"src="Spamhaus.jpg" width="420" height="326" alt="XML"/>
+
+				<p>The largest DDoS attack so far was on the 10th Feb 2014. The targeted website is not known, but was protected by CloudFlare, a DDoS mitigation service. CloudFlare reported that the attack peaked at 400Gbps (gigabits/second), 100Gbps more than the second largest attack.	
+
+				<br/><br/>
+
+				The second largest DDoS attack was against Spamhaus, by Dutch web host Cyberbunker. Spamhaus added Cyberbunker to a blacklist used by email providers to block spam, claiming that they were hosting spam websites. Cyberbunker responded by hiring ‘criminal gangs’ to launch a DDoS attack against Spamhaus. This came in the form of a Layer 3 attack, a high volume attack aimed at overwhelming the target/consuming resources until the server goes offline. The attack peaked at 300Gbps – 200Gbps more than the third largest attack. CloudFlare mitigated the attack by acting as a shield before the traffic reached the website. CloudFlare received the attack and spread it across many servers.
+
+				<br/><br/></p>
+
+
+
+
+
+			
+
+			<h2 id = "anonymous">Anonymous - Operation Avenge Assange</h2>
+
+				<img id="Anonymouspic" src="Anonymous.jpg" width="150" height="150" alt="XML"/>
+
+				<p>PayPal stopped working with WikiLeaks due to political pressures, and suspending the Wau Holland Foundation PayPal account which collected donations for WikiLeaks. DDoS attacks were launched against PayPal by Anonymous, costing PayPal £3.5m, in hardware, software and staff costs – 100 staff were needed to keep the website running. After the attacks, PayPal released the funds stored in the Wau Holland account to WikiLeaks.<br/><br/>
+
+
+
+				DDoS attacks are outlawed in the UK and 3 UK members of Anonymous were jailed for the attacks in January 2013.
+
+				13 more members pleaded guilty to the attacks in the US in December 2013, they have not been sentenced yet.
+
+
+
+				</p>
+
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+		</div>
+
+</div>
+
+			<div id="side">
+					<div id="side-inner">
+
+						<h3>Links</h3>
+
+						<ul>
+							<li>
+								<a href="#reasons">DDoS Reasons</a>
+							</li>
+							<li>
+								<a href="#largest">Largest DDoS attacks</a>
+							</li>
+							<li>
+								<a href="#anonymous">Anonymous - Operation Avenge Assange</a>
+							</li>
+						</ul>
+
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud.
+						</p>
+						<h3>Books</h3>
+						<a href="http://www.amazon.co.uk/Denial-Service-Computer-Networks-Mechanisms/dp/3845413697/ref=sr_1_5?ie=UTF8&amp;qid=1394621107&amp;sr=8-5&amp;keywords=denial+of+service+attacks">
+						<img class="img-right" src="book1.jpg"/>
+						</a>
+					</div>
+				</div>
+
+
+
+
+				<div id="footer">
+
+					<p>
+						Footer: Team 16
+					</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+	</body>
+
+</html>
+
+
+
